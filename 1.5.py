@@ -13,7 +13,8 @@ t.shape("turtle")       #커서의 모양을 거북이로 한다.
 t.shapesize(3,3)        #거북이를 3배 확대한다. 
 
 #무한루프이다. 
-while answer: 
+command = ""
+while command == "l"or"left"or"r"or"right": 
     command = input("명령을 입력하시오:")
     if command== "l" or command=="left":        #l또는 left입력하면
         t.left(90) 
