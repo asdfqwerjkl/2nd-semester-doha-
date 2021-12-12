@@ -79,7 +79,7 @@ def guess_number():
         message = "너무 낮아요!"
     else:
         message = "너무 높아요!"
-        label['text'] = message
+    label['text'] = message
         
 def reset():
     global num_guesses
